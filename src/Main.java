@@ -12,6 +12,7 @@ public class Main {
         dogList.get(0).bark("Bark");
         dogList.get(0).register(new VaccinationRecord());
         dogList.get(1).register(new VaccinationRecord());
+        dogList.get(1).register(new VaccinationRecord());
     }
 }
 
