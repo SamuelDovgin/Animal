@@ -4,6 +4,7 @@ public class Dog {
     private String _name;
     private String _id;
     private String _breed;
+    private String _personality;
 
     public Dog(String name, String id, String breed, String personality){
         _name = name;
