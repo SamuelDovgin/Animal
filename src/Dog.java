@@ -5,10 +5,11 @@ public class Dog {
     private String _id;
     private String _breed;
 
-    public Dog(String name, String id, String breed){
+    public Dog(String name, String id, String breed, String personality){
         _name = name;
         _id = id;
         _breed = breed;
+	_personality = personality;
     }
 
     public void bark(String args)
